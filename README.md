@@ -1,6 +1,8 @@
 <h1>Zeoweather Mobile Application</h1>
 
 <p>This Flutter application provides real-time weather information for multiple cities. The app fetches weather data from a openweathermap API and displays it, including the current temperature, weather condition, and hourly and historical weather data. Additionally, users are alerted via email when the temperature exceeds a predefined threshold.</p>
+<be>
+<p>The application is build using the MVC(Model View Controller Architecture)</p>
 
 <p><strong>APK Download Link:</strong> <a href="https://drive.google.com/file/d/1Qy4rMqP6jHfEbnNn6hF0DH2LtFaejOBl/view?usp=sharing" target="_blank">Download Here</a></p>
 
@@ -11,6 +13,19 @@
     <img src="https://github.com/user-attachments/assets/773e92b9-c275-4801-a26c-7fd73933ac9c" alt="Screenshot of Email Notification" style="width: 45%;">
 </div>
 
+
+<h3>Application Working Video</h3> <br>
+https://github.com/user-attachments/assets/c94636ec-0b24-40a4-8647-3934679eb4ab
+
+
+
+
+
+<h2>Note</h2>
+ - The Weather data is fetched every 5 minutes so, whenever the configured threshold value of temperature is reached an email notification is send to the email address only once.
+ <br>
+ - Since the app does not run in the background, therefore in order to receive email notification the app needs to kept open.
+    
 
 <h3>Features</h3>
  -  City Selection Dropdown: Choose between cities such as Hyderabad, Mumbai, Chennai, and Kolkata using a dropdown menu. The weather data automatically updates for the selected city.
@@ -45,30 +60,31 @@
 Since the hourly data for a city require paid plan in the openweathermap API, hence I have used the weatherapi.com API to integrate the hourly data feature.
 
 
-<h3>Installation<h3>
-1. Clone the repository
- 
-```bash
-git clone https://github.com/Hemanth5603/Zeoweather.git
-```
+<h3>Installation</h3>
 
-2.Install the dependencies
-```bash
-flutter pub get
-```
+<ol>
+    <li>
+        <strong>Clone the Repository:</strong>
+        <pre><code>git clone https://github.com/Hemanth5603/Zeoweather.git</code></pre>
+    </li>
+    <li>
+        <strong>Install the Dependencies:</strong>
+        <pre><code>flutter pub get</code></pre>
+    </li>
+    <li>
+        <strong>Update the API Key:</strong>
+        <p>Open the <code>weather_service.dart</code> file and replace the placeholder API key with your own API key from the following sources:</p>
+        <ul>
+            <li><a href="https://openweathermap.com/" target="_blank">OpenWeatherMap</a></li>
+            <li><a href="https://www.weatherapi.com/" target="_blank">WeatherAPI</a></li>
+        </ul>
+    </li>
+    <li>
+        <strong>Run the Application:</strong>
+        <pre><code>flutter run</code></pre>
+    </li>
+</ol>
 
-3. Update the API key: <br> <br>
-Open the weather_service.dart file and replace the placeholder API key with your own API from [openweathermap.com](https://openweathermap.org/) and https://www.weatherapi.com/:
-
-
-
-4. Run the application:
-
-```bash
-flutter run
-```
-
-.
 <h3>Some more screenshots of the application</h3>
 
 
@@ -76,3 +92,5 @@ flutter run
     <img src="https://github.com/user-attachments/assets/8a030013-3860-48ed-8267-2ea2fb3c9139" alt="App Screenshot 1" style="width: 45%;">
     <img src="https://github.com/user-attachments/assets/9742956d-7920-447d-b6ee-daa0a5f2ab3c" alt="App Screenshot 2" style="width: 45%;">
 </div>
+
+
