@@ -34,7 +34,8 @@ class _HomeState extends State<Home> {
   final Duration updateInterval =const Duration(minutes: 5);
   String updateTime = DateFormat('HH:mm').format(DateTime.now());
   String selectedCity = 'Hyderabad'; 
-  
+  int timeNow = int.parse(DateFormat('HH').format(DateTime.now()));
+
 
   @override
   void initState() {
@@ -108,11 +109,21 @@ class _HomeState extends State<Home> {
                 ? Container(
                   width: MediaQuery.of(context).size.width,
                   height: MediaQuery.of(context).size.height,
-                   decoration: const BoxDecoration(
-                    gradient: LinearGradient(
+                   decoration:  BoxDecoration(
+                    gradient: timeNow >=5  && timeNow <= 18 ? 
+                    const LinearGradient(
                       begin: FractionalOffset.topCenter,
                       end: FractionalOffset.bottomCenter,
-                      colors: [
+                      colors:  [
+                        Color.fromARGB(255, 39, 90, 255),
+                        Color.fromARGB(255, 169, 183, 255),
+                        Color.fromARGB(255, 255, 255, 255),
+                      ],
+                      stops: [0.0,0.8,1]
+                    ):const LinearGradient(
+                      begin: FractionalOffset.topCenter,
+                      end: FractionalOffset.bottomCenter,
+                      colors:  [
                         Color.fromARGB(255, 0, 8, 59),
                         Color.fromARGB(255, 0, 14, 104),
                         Color.fromARGB(255, 255, 255, 255),
