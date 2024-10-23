@@ -9,7 +9,7 @@
 <h3>Here is the first Glimpse of the Mobile App and the email notification:</h3>
 
 <div style="display: flex; gap: 10px;">
-    <img src="https://github.com/user-attachments/assets/972acbe8-70e7-46f9-8ee0-3dcba6e17a68" alt="Screenshot of the App" style="width: 45%;">
+    <img src="https://github.com/user-attachments/assets/e008146b-fc74-4e4e-ba6a-e8b7970fa5b8" alt="Screenshot of the App" style="width: 45%;">
     <img src="https://github.com/user-attachments/assets/773e92b9-c275-4801-a26c-7fd73933ac9c" alt="Screenshot of Email Notification" style="width: 45%;">
 </div>
 
