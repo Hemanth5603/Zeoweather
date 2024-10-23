@@ -1,13 +1,15 @@
-<h1>Zeoweather Mobile Applicaton</h1>
+<h1>Zeoweather Mobile Application</h1>
 
-This Flutter application provides real-time weather information for multiple cities. The app fetches weather data from a openweathermap API and displays it, including the current temperature, weather condition, and hourly and historical weather data. Additionally, users are alerted via email when the temperature exceeds a predefined threshold.
+<p>This Flutter application provides real-time weather information for multiple cities. The app fetches weather data from a openweathermap API and displays it, including the current temperature, weather condition, and hourly and historical weather data. Additionally, users are alerted via email when the temperature exceeds a predefined threshold.</p>
 
-APK Download Link: https://drive.google.com/file/d/1Qy4rMqP6jHfEbnNn6hF0DH2LtFaejOBl/view?usp=sharing
+<p><strong>APK Download Link:</strong> <a href="https://drive.google.com/file/d/1Qy4rMqP6jHfEbnNn6hF0DH2LtFaejOBl/view?usp=sharing" target="_blank">Download Here</a></p>
 
-Here is the first Glimpse of the Mobile App and the email notification:
+<h3>Here is the first Glimpse of the Mobile App and the email notification:</h3>
 
-![Screenshot_20241023_173141](https://github.com/user-attachments/assets/972acbe8-70e7-46f9-8ee0-3dcba6e17a68)
-![Screenshot_2024_1023_174330](https://github.com/user-attachments/assets/773e92b9-c275-4801-a26c-7fd73933ac9c)
+<div style="display: flex; gap: 10px;">
+    <img src="https://github.com/user-attachments/assets/972acbe8-70e7-46f9-8ee0-3dcba6e17a68" alt="Screenshot of the App" style="width: 45%;">
+    <img src="https://github.com/user-attachments/assets/773e92b9-c275-4801-a26c-7fd73933ac9c" alt="Screenshot of Email Notification" style="width: 45%;">
+</div>
 
 
 <h3>Features</h3>
@@ -25,6 +27,11 @@ Here is the first Glimpse of the Mobile App and the email notification:
  - Last Updated Time: The app shows the last time the weather data was updated.
 
  - Customizable Settings: Users can configure their temperature threshold and other preferences in the settings page.
+
+
+<h3>System Architecture </h3>
+![zeowather system](https://github.com/user-attachments/assets/27318d93-e406-4908-b4b0-331380428fc3)
+
 
 
 <h3>Prerequisites</h3>
@@ -51,9 +58,19 @@ flutter pub get
 3. Update the API key: <br> <br>
 Open the weather_service.dart file and replace the placeholder API key with your own API from [openweathermap.com](https://openweathermap.org/) and https://www.weatherapi.com/:
 
+
+
 4. Run the application:
 
 ```bash
 flutter run
 ```
 
+.
+<h3>Some more screenshots of the application</h3>
+
+
+<div style="display: flex; gap: 10px;">
+    <img src="https://github.com/user-attachments/assets/8a030013-3860-48ed-8267-2ea2fb3c9139" alt="App Screenshot 1" style="width: 45%;">
+    <img src="https://github.com/user-attachments/assets/9742956d-7920-447d-b6ee-daa0a5f2ab3c" alt="App Screenshot 2" style="width: 45%;">
+</div>
