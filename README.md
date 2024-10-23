@@ -38,8 +38,10 @@
 
  - Flutter SDK: Ensure you have Flutter installed. You can install Flutter by following the instructions here: Flutter Installation
 <br>
- - Weather API Key: This app fetches data from a weather API. You will need an API key to fetch weather data. You can get one from OpenWeatherMap.<br>
+ -  Weather API Key: This app fetches data from a weather API. You will need an API key to fetch weather data. You can get one from OpenWeatherMap.
+<br>
  - **Note** <br>
+ 
 Since the hourly data for a city require paid plan in the openweathermap API, hence I have used the weatherapi.com API to integrate the hourly data feature.
 
 
