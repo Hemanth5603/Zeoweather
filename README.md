@@ -2,9 +2,12 @@
 
 This Flutter application provides real-time weather information for multiple cities. The app fetches weather data from a openweathermap API and displays it, including the current temperature, weather condition, and hourly and historical weather data. Additionally, users are alerted via email when the temperature exceeds a predefined threshold.
 
-Here is the first Glimpse of the Mobile App:
+APK Download Link: https://drive.google.com/file/d/1Qy4rMqP6jHfEbnNn6hF0DH2LtFaejOBl/view?usp=sharing
+
+Here is the first Glimpse of the Mobile App and the email notification:
 
 ![Screenshot_20241023_173141](https://github.com/user-attachments/assets/972acbe8-70e7-46f9-8ee0-3dcba6e17a68)
+![Screenshot_2024_1023_174330](https://github.com/user-attachments/assets/773e92b9-c275-4801-a26c-7fd73933ac9c)
 
 
 <h3>Features</h3>
@@ -28,13 +31,14 @@ Here is the first Glimpse of the Mobile App:
 
  - Flutter SDK: Ensure you have Flutter installed. You can install Flutter by following the instructions here: Flutter Installation
 <br>
- - Weather API Key: This app fetches data from a weather API. You will need an API key to fetch weather data. You can get one from OpenWeatherMap.
- - **Note**
+ - Weather API Key: This app fetches data from a weather API. You will need an API key to fetch weather data. You can get one from OpenWeatherMap.<br>
+ - **Note** <br>
 Since the hourly data for a city require paid plan in the openweathermap API, hence I have used the weatherapi.com API to integrate the hourly data feature.
 
 
 <h3>Installation<h3>
 1. Clone the repository
+ 
 ```bash
 git clone https://github.com/Hemanth5603/Zeoweather.git
 ```
@@ -44,7 +48,7 @@ git clone https://github.com/Hemanth5603/Zeoweather.git
 flutter pub get
 ```
 
-3. Update the API key: <br>
+3. Update the API key: <br> <br>
 Open the weather_service.dart file and replace the placeholder API key with your own API from [openweathermap.com](https://openweathermap.org/) and https://www.weatherapi.com/:
 
 4. Run the application:
