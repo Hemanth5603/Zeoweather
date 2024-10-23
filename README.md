@@ -30,7 +30,7 @@
 
 
 <h3>System Architecture </h3>
-![zeowather system](https://github.com/user-attachments/assets/27318d93-e406-4908-b4b0-331380428fc3)
+<img src="https://github.com/user-attachments/assets/e55fd07c-f2e4-4efc-a68d-c8f09720c8a0" alt="Screenshot of the App" style="width: 45%;">
 
 
 
